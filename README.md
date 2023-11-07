@@ -11,6 +11,12 @@ File Uploader is a Django web application that allows users to upload and manage
 - File management for each user.
 - Easy-to-use web interface.
 
+## Live Demo
+
+You can try out the application with the live demo on PythonAnywhere. Visit [File Uploader Demo](https://uploader7751.pythonanywhere.com/) and experience the features of the application without the need to set it up locally.
+
+
+
 ## Installation
 
 ```bash
