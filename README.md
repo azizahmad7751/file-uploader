@@ -33,11 +33,12 @@ python manage.py runserver
 
 Access the application in your web browser at http://localhost:8000/.
 
-Usage
-Register a new user or log in if you already have an account.
 
-Click the "File Upload" button to upload a file. You can see the upload progress.
+##Usage
+1. Register a new user or log in if you already have an account.
 
-After uploading, you can view and download your uploaded files in the "My Files" section.
+2. Click the "File Upload" button to upload a file. You can see the upload progress.
 
-You can pause and resume file uploads using the respective buttons.
+3. After uploading, you can view and download your uploaded files in the "DOWNLOAD" section.
+
+
