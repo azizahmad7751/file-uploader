@@ -13,33 +13,24 @@ File Uploader is a Django web application that allows users to upload and manage
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/file-uploader.git
-   
-Create a virtual environment (recommended):
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/file-uploader.git
+cd file-uploader
 
-'''bash
+# Create a virtual environment (recommended)
 python -m venv venv
-source venv/bin/activate  
+source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
 
-# On Windows, use 'venv\Scripts\activate'
-
-
-Install project dependencies:
-'''bash
+# Install project dependencies
 pip install -r requirements.txt
 
-
-Apply migrations to set up the database:
-
-'''bash
+# Apply migrations to set up the database
 python manage.py migrate
-Start the development server:
 
-'''bash
-
+# Start the development server
 python manage.py runserver
+
 Access the application in your web browser at http://localhost:8000/.
 
 Usage
