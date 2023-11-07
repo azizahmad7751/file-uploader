@@ -19,7 +19,10 @@ https://github.com/azizahmad7751/file-uploader.git
 
 # Create a virtual environment (recommended)
 python -m venv venv
-source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
+source venv/bin/activate
+
+# On Windows, use
+venv\Scripts\activate
 
 # Install project dependencies
 pip install -r requirements.txt
