@@ -20,18 +20,20 @@ File Uploader is a Django web application that allows users to upload and manage
 Create a virtual environment (recommended):
 
 '''bash
-
 python -m venv venv
-source venv/bin/activate  # On Windows, use 'venv\Scripts\activate'
+source venv/bin/activate  
+
+# On Windows, use 'venv\Scripts\activate'
+
+
 Install project dependencies:
-
 '''bash
-
 pip install -r requirements.txt
+
+
 Apply migrations to set up the database:
 
 '''bash
-
 python manage.py migrate
 Start the development server:
 
